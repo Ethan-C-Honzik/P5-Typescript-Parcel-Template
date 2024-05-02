@@ -1,0 +1,23 @@
+{
+  "name": "p5parcel",
+  "version": "1.0.0",
+  "description": "A template for getting up and running with p5js using typescript and parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html",
+    "start_nested": "npx parcel index.html --public-url ./"
+  },
+  "author": "Ethan Honzik",
+  "license": "MIT",
+  "devDependencies": {
+    "@tweakpane/core": "^2.0.3",
+    "@types/p5": "^1.7.6",
+    "parcel": "^2.12.0",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  },
+  "dependencies": {
+    "p5": "^1.9.1",
+    "tweakpane": "^4.0.3"
+  }
+}
