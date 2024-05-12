@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html",
+    "start": "npx parcel index.html --dist-dir ./docs",
     "start_nested": "npx parcel index.html --public-url ./"
   },
   "author": "Ethan Honzik",
