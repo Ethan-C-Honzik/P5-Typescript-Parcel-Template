@@ -8,9 +8,7 @@ static assets can be used via th static directory and will be bundled into the d
 
 ## how to use
 
-Simply clone this repo and type npm start. A live server will then start and any changes you make will be automatically pushed to the browser. To easily publish your project you can push to github and start a github pages site pointing to the dist folder. 
-
-If you want this repo to be a nested page in a website npm start_nested will use relative paths for all assets. 
+Simply clone this repo and type npm start. A live server will then start and any changes you make will be automatically pushed to the browser. To easily publish your project type npm run build. This will create a deployment under the docs folder that should automatically be hosted by github once pushed. 
 
 ## Why did I make this? 
 
