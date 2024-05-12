@@ -2,11 +2,10 @@
   "name": "p5parcel",
   "version": "1.0.0",
   "description": "A template for getting up and running with p5js using typescript and parcel",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx parcel index.html --dist-dir ./docs",
-    "start_nested": "npx parcel index.html --public-url ./"
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html --public-url ./ --dist-dir ./docs"
   },
   "author": "Ethan Honzik",
   "license": "MIT",
