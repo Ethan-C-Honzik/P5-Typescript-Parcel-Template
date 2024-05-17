@@ -4,7 +4,7 @@ This is a template for creating a p5js project utilizing typescript and the Parc
 ```ts
 window["setup"] = function setup() {}
 ```
-static assets can be used via th static directory and will be bundled into the dist folder. To use npm packages simply do npm install and import them into your project. Tweakpane is included in this repo as an example. 
+static assets can be used via the static directory and will be bundled into the docs folder. To use npm packages simply do npm install and import them into your project. Tweakpane is included in this repo as an example. 
 
 ## how to use
 
